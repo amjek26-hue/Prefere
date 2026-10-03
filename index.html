@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prefere — Оркестр</title>
+  <meta name="description" content="Prefere — камерный оркестр. Концерты, афиша, записи и сотрудничество." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="top">
+  <header class="site-header">
+    <a class="logo" href="#top">Prefere<span class="logo-dot">.</span></a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Меню</button>
+      <ul id="nav-menu">
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#events">Афиша</a></li>
+        <li><a href="#repertoire">Репертуар</a></li>
+        <li><a href="#ensemble">Состав</a></li>
+        <li><a href="#media">Записи</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-kicker">Камерный оркестр</p>
+      <h1>Prefere</h1>
+      <p class="hero-sub">«Я предпочитаю» — выбор в пользу живого звука,<br/>честной эмоции и музыки, объединяющей людей.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#events">Ближайшие концерты</a>
+        <a class="btn btn-ghost" href="#media">Слушать онлайн</a>
+      </div>
+    </div>
+    <div class="hero-decor" aria-hidden="true"></div>
+  </section>
+
+  <main>
+    <section id="about" class="section about">
+      <div class="container two-col">
+        <div>
+          <h2>О оркестре</h2>
+          <p class="lead">Prefere — камерный оркестр, основанный музыкантами, убеждёнными, что академическая музыка может быть современной, доступной и эмоционально честной.</p>
+          <p>Мы исполняем классику и неоклассику, саундтреки и собственные аранжировки — на концертных сценах, в городских пространствах и на частных мероприятиях. Каждый проект оркестра — это продуманная драматургия вечера и живое взаимодействие со слушателем.</p>
+          <ul class="facts">
+            <li><strong>2019</strong><span>год основания</span></li>
+            <li><strong>120+</strong><span>концертов сыграно</span></li>
+            <li><strong>24</strong><span>музыканта в составе</span></li>
+            <li><strong>15</strong><span>городов гастролей</span></li>
+          </ul>
+        </div>
+        <blockquote class="pull-quote">
+          «Prefere — это предпочтение живого звука любой записи. Мы выбираем сцену, зал и вас.»
+          <cite>— художественный руководитель оркестра</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="events" class="section events">
+      <div class="container">
+        <h2>Афиша</h2>
+        <div class="event-list">
+          <article class="event">
+            <div class="event-date"><span class="day">18</span><span class="month">октября</span></div>
+            <div class="event-info">
+              <h3>Вечер Моцарта и Шнитке</h3>
+              <p class="event-meta">Москва · Зал имени Чайковского · 19:00</p>
+              <p>Серенада до минор и Каприччио — два взгляда на трагедию и игру.</p>
+            </div>
+            <a class="btn btn-primary" href="#contact">Билеты</a>
+          </article>
+          <article class="event">
+            <div class="event-date"><span class="day">09</span><span class="month">ноября</span></div>
+            <div class="event-info">
+              <h3>Cinema Nights: музыка кино</h3>
+              <p class="event-meta">Санкт-Петербург · БКЗ «Октябрьский» · 20:00</p>
+              <p>Саундтреки Эннио Морриконе, Ханса Циммера и Александра Десплана.</p>
+            </div>
+            <a class="btn btn-primary" href="#contact">Билеты</a>
+          </article>
+          <article class="event">
+            <div class="event-date"><span class="day">21</span><span class="month">декабря</span></div>
+            <div class="event-info">
+              <h3>Зимняя серенада</h3>
+              <p class="event-meta">Казань · ГКЗ «Сайдаш» · 18:00</p>
+              <p>Пасторальные сюиты и премьеры современных композиторов.</p>
+            </div>
+            <a class="btn btn-primary" href="#contact">Билеты</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="repertoire" class="section repertoire">
+      <div class="container">
+        <h2>Репертуар</h2>
+        <div class="tabs" role="tablist">
+          <button class="tab active" role="tab" aria-selected="true" data-tab="classic">Классика и романтизм</button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="neo">Неоклассика</button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="film">Музыка кино</button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="arr">Аранжировки</button>
+        </div>
+        <div class="tab-panel active" id="panel-classic">
+          <ul class="works">
+            <li>В. А. Моцарт — Серенада до минор, KV 388</li>
+            <li>Л. ван Бетховен — Романсы и Менуэты для струнных</li>
+            <li>Ф. Шуберт — Струнный квартет № 14 «Смерть и девушка» (версия для оркестра)</li>
+            <li>Э. Григ — «Из времён Хольберга», сюита для старинного струнного оркестра</li>
+            <li>А. Шнитке — Каприччио для струнных и ударных</li>
+          </ul>
+        </div>
+        <div class="tab-panel" id="panel-neo">
+          <ul class="works">
+            <li>М. Рихтер — Reborn, On the Nature of Daylight</li>
+            <li>М. Найман — The Piano Quartet</li>
+            <li>Д. Jóhannsson — A Pile of Escape (струнная версия)</li>
+            <li>Ó. Arnalds — For You (Live), тиражи для оркестра</li>
+            <li>Max Richter — Recomposed by Max Richter: «Времена года» Вivaldi</li>
+          </ul>
+        </div>
+        <div class="tab-panel" id="panel-film">
+          <ul class="works">
+            <li>Э. Морриконе — сюиты из фильмов Серджо Леоне и «Миссия»</li>
+            <li>Х. Циммер — Time, Cornfield Chase (Interstellar)</li>
+            <li>А. Десплан — саундтреки к фильмам Уэса Андерсона</li>
+            <li>Й. Хисаиси — музыка студий Ghibli в оркестровых сюитах</li>
+            <li>Д. Аркенвольт — Lux Aeterna</li>
+          </ul>
+        </div>
+        <div class="tab-panel" id="panel-arr">
+          <ul class="works">
+            <li>Авторские обработки поп- и рок-баллад для камерного состава</li>
+            <li>Импровизационные сюиты на темы джазовых стандартов</li>
+            <li>Специальные аранжировки к корпоративным и частным событиям</li>
+            <li>Театральные и хореографические миниатюры по заказу</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="ensemble" class="section ensemble">
+      <div class="container">
+        <h2>Состав оркестра</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card-photo placeholder" aria-hidden="true">🎻</div>
+            <h3>Художественный руководитель</h3>
+            <p class="card-role">Первая скрипка · дирижёр</p>
+            <p>Определяет концепцию сезонов и программу каждого вечера.</p>
+          </article>
+          <article class="card">
+            <div class="card-photo placeholder" aria-hidden="true">🎻</div>
+            <h3>Группа скрипок</h3>
+            <p class="card-role">12 музыкантов</p>
+            <p>Первые и вторые скрипки — голос и душа оркестра.</p>
+          </article>
+          <article class="card">
+            <div class="card-photo placeholder" aria-hidden="true">🎶</div>
+            <h3>Альты и виолончели</h3>
+            <p class="card-role">8 музыкантов</p>
+            <p>Тёплая середина звучания и сольные эпизоды в каждой программе.</p>
+          </article>
+          <article class="card">
+            <div class="card-photo placeholder" aria-hidden="true">🎹</div>
+            <h3>Фортепиано и духовые</h3>
+            <p class="card-role">по приглашению</p>
+            <p>Расширенный состав для специальных проектов и фестивалей.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="section media">
+      <div class="container">
+        <h2>Записи и медиа</h2>
+        <div class="media-grid">
+          <figure class="media-item">
+            <div class="thumb" data-title="Serenaade Live"></div>
+            <figcaption>Serenaade Live — вечерний концерт в Москве</figcaption>
+          </figure>
+          <figure class="media-item">
+            <div class="thumb" data-title="Cinema Nights"></div>
+            <figcaption>Cinema Nights — клип с петербургской сцены</figcaption>
+          </figure>
+          <figure class="media-item">
+            <div class="thumb" data-title="Winter Suite"></div>
+            <figcaption>Зимняя сюита — студийная запись 2025 года</figcaption>
+          </figure>
+        </div>
+        <p class="media-note">Полные альбомы — на стриминговых площадках и в нашем <a href="#contact">YouTube-канале</a>.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Проекты и сотрудничество</h2>
+        <div class="cards small">
+          <article class="card">
+            <h3>Абонементы</h3>
+            <p>Сезонные серии концертов с единой драматургией и специальными ценами для постоянных слушателей.</p>
+          </article>
+          <article class="card">
+            <h3>Образовательные вечера</h3>
+            <p>Открытые репетиции, лекции-концерты для школ и вузов, мастер-классы для юных музыкантов.</p>
+          </article>
+          <article class="card">
+            <h3>Частные события</h3>
+            <p>Свадьбы, корпоративные вечера и церемонии — программы под ключ от квартета до полного состава.</p>
+          </article>
+          <article class="card">
+            <h3>Совместные релизы</h3>
+            <p>Приглашаем вокалистов, композиторов и электронных артистов к записи и живым коллаборациям.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container two-col">
+        <div>
+          <h2>Контакты</h2>
+          <p class="lead">Пишите нам — по вопросам билетов, выступлений и сотрудничества.</p>
+          <ul class="contacts">
+            <li><strong>Email:</strong> <a href="mailto:hello@prefere.example">hello@prefere.example</a></li>
+            <li><strong>Телефон:</strong> <a href="tel:+70000000000">+7 (000) 000-00-00</a></li>
+            <li><strong>Соцсети:</strong> VK · Telegram · YouTube</li>
+            <li><strong>Адрес:</strong> Москва, репетиционный центр «Камерный зал»</li>
+          </ul>
+        </div>
+        <form class="booking-form" action="#" method="post">
+          <label>Имя
+            <input type="text" name="name" placeholder="Как к вам обращаться" required />
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>Сообщение
+            <textarea name="message" rows="4" placeholder="О чём хотите спросить?"></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Отправить</button>
+          <p class="form-note">Нажимая «Отправить», вы соглашаетесь с политикой обработки данных.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">Prefere<span class="logo-dot">.</span></p>
+      <p>© 2026 Камерный оркестр Prefere. Все права защищены.</p>
+      <nav class="footer-nav">
+        <a href="#about">О нас</a>
+        <a href="#events">Афиша</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
